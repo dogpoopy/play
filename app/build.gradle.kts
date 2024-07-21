@@ -10,7 +10,6 @@ android {
 
     lint {
         abortOnError = false
-        disable += "UnresolvedReference"
     }
 
     defaultConfig {

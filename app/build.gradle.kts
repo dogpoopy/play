@@ -9,8 +9,8 @@ android {
     compileSdk = 34
 
     lintOptions {
-        abortOnError false
-        disable 'UnresolvedReference'
+        abortOnError; false
+        disable 'Unresolved reference'
         }
 
     defaultConfig {

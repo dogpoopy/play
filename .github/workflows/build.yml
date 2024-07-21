@@ -18,9 +18,7 @@ jobs:
     - name: Build with Gradle
       run: |
           chmod +x gradlew
-          ./gradlew assembleDebug > build_output.log 2>&1
-          grep -v "Unresolved reference" build_output.log
-          cat build_output.log
+          ./gradlew assembleDebug
 
     - uses: actions/upload-artifact@v3
       with:

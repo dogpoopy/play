@@ -8,10 +8,10 @@ android {
     namespace = "co.aospa.dolby.xiaomi"
     compileSdk = 34
 
-    lintOptions {
-        abortOnError; false
-        disable; 'Unresolved reference'
-        }
+    lint {
+        abortOnError = false
+        disable("UnresolvedReference")
+    }
 
     defaultConfig {
         applicationId = "co.aospa.dolby.xiaomi"

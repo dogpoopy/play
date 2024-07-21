@@ -12,7 +12,7 @@ android {
         applicationId = "co.aospa.dolby.xiaomi"
         minSdk = 33
         targetSdk = 34
-        versionCode = 1.0
+        versionCode = 1
 
         externalNativeBuild {
             cmake {

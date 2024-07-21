@@ -7,9 +7,6 @@
     android:sharedUserId="android.uid.system">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-sdk
-        android:minSdkVersion="34"
-        android:targetSdkVersion="34"/>
      
     <application
         android:allowBackup="true"

@@ -53,8 +53,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.preference_preference")
-    implementation("SettingsLib")
+    implementation("androidx.preference:preference-ktx:1.2.1")
 
     // Biometrics
     implementation("androidx.biometric:biometric:1.2.0-alpha05")
